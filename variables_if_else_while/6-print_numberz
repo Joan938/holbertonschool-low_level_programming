@@ -7,14 +7,14 @@
  */
 int main(void)
 {
-    int i;
+    int i;  /* Declare integer variable */
 
     for (i = 0; i < 10; i++)
     {
-        putchar(i + '0'); /* Convert integer to ASCII character */
+        putchar(i + '0');  /* Convert integer to ASCII character */
     }
-    putchar('\n'); /* Print a new line */
+    putchar('\n');  /* Print a new line */
 
-    return (0);
+    return (0);  /* Return success */
 }
 
