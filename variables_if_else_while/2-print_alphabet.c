@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	char letter;
@@ -8,7 +13,7 @@ int main(void)
 	{
 		putchar(letter);
 	}
-	putchar('\n');  /* Print a new line */
+	putchar('\n'); /* Print a new line */
 
 	return (0);
 }
