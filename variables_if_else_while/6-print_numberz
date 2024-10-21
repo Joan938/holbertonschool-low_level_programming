@@ -1,23 +1,20 @@
---- original.c    2024-10-21 12:00:00.000000000 +0000
-+++ betty_style.c 2024-10-21 12:00:00.000000000 +0000
-@@ -1,0 +1,20 @@
-+#include <stdio.h>
-+
-+/*************
-+ * main - prints single digit numbers of base 10
-+ *
-+ * Return: Always 0 (Success)
-+ *************/
-+int main(void)
-+{
-+    int i;
-+
-+    for (i = 0; i < 10; i++)
-+    {
-+        putchar(i + '0'); /* Convert integer to ASCII character */
-+    }
-+    putchar('\n'); /* Print a new line */
-+
-+    return (0);
-+}
+#include <stdio.h>
+
+/**
+ * main - prints single digit numbers of base 10
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+    int i;
+
+    for (i = 0; i < 10; i++)
+    {
+        putchar(i + '0'); /* Convert integer to ASCII character */
+    }
+    putchar('\n'); /* Print a new line */
+
+    return (0);
+}
 
