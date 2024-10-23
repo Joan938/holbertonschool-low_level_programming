@@ -1,4 +1,3 @@
-/* main.h */
 #ifndef MAIN_H
 #define MAIN_H
 
@@ -6,5 +5,5 @@
 
 void _putchar(void);
 
-#endif /* MAIN_H */
+#endif
 

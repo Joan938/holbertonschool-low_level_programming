@@ -1,4 +1,3 @@
-/* 0-putchar.c */
 #include "main.h"
 
 void _putchar(void)
