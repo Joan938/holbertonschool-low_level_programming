@@ -1,7 +1,7 @@
-#include <main.h>
+/* 0-putchar.c */
+#include "main.h"
 
-int main(void) {
-    printf("_putchar\n");
-    return 0;
+void _putchar(void)
+{
+	printf("_putchar\n");
 }
-

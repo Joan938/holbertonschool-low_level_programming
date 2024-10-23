@@ -1,6 +1,10 @@
+/* main.h */
 #ifndef MAIN_H
 #define MAIN_H
 
-int_putchar(char c);
+#include <stdio.h>
+
+void _putchar(void);
 
 #endif /* MAIN_H */
+
