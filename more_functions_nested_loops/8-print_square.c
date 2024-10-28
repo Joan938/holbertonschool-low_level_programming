@@ -1,27 +1,28 @@
 #include "main.h"
-
 /**
- * print_square - prints a square followed by a new line
- * @size: The size of the square
+ * print_square - the name of the rototype
+ *
+ * @size: name vairbale
+ * Return: 0
 **/
-
 void print_square(int size)
 {
-	int i, j;
-
-
-	if (size <= 0)
+int d;
+int y;
+	if (size > 0)
 	{
-		_putchar('\n');
-		return;
-	}
-
-	for (i = 0; i < size; j++)
-	{
-		for (j = 0; j < size; j++)
+		for (d = 0; d < size; d++)
 		{
-			_putchar('#');
+			for (y = 1; y <= size; y++)
+			{
+				_putchar('#');
+			}
+			_putchar('\n');
+
 		}
+	}
+	else
+	{
 		_putchar('\n');
 	}
 }
